@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SmartGeocache </title>
+</head>
+<body>
+<h1> Logbuch </h1>
+
+<form action="/cachelog" method="POST">Date<br><input type="date" name="Datum" maxlength="8" /> <br><br><br>Username<br><input type="text" name="Username" maxlength="20" /> <br><br><br>Message<br><input type="text" name="Nachricht" maxlength="30" /> <br><br><input type="submit" value="Speichern" /></form>
+<br>
+<br>
+<form action="/logbook" target="myiFrame"><input type="submit" value="First Page" /></form><form action="/logbook--" target="myiFrame"><input type="submit" value="Previous Page" /></form><form action="/logbook++" target="myiFrame"><input type="submit" value="Next Page" /></form><form action="/logbookend" target="myiFrame"><input type="submit" value="Last Page" /></form>
+<iframe name="myiFrame" src="about:blank" width="300" height="300">
+
+
+</body>
+</html>
